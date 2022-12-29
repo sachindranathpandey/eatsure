@@ -4,12 +4,20 @@ darkmode = () => {
   element.classList.toggle("dark-mode");
 };
 
-$(window).on("load", function () {
-  $("#myModal").modal("show");
-});
-
-const myModal = new bootstrap.Modal("#myModal");
-
 $(document).ready(function () {
   $("#myModal").modal("show");
 });
+
+const btnclose = document.querySelector(".close");
+const hidemodal = document.querySelector(".modal-section");
+
+// btnclose.addEventListener("click", function () {
+//   hidemodal.classList.add("hide");
+//   removeDummy();
+// });
+
+function removeDummy() {
+  var elem = document.getElementById("dummy");
+  elem.parentNode.removeChild(elem);
+  return false;
+}

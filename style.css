@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
 
+body {
+  background-color: aqua;
+}
 .nav-header {
   margin-top: 14px;
 }
@@ -182,4 +185,31 @@ a:link {
 .vl {
   border-left: 1px solid rgb(222, 227, 222);
   height: 50px;
+}
+
+/* Modal Popup CSS */
+.modal-content {
+  width: 700px;
+  height: 450px;
+  right: 100px;
+  top: 50px;
+  border: 1px solid rgb(23, 188, 64);
+  box-shadow: inset;
+  border-radius: 5px;
+}
+.deal-image-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.modal-img {
+  object-fit: fill;
+  width: 100%;
+  height: 300px;
+}
+
+.hide {
+  display: none !important;
+  opacity: 0;
 }
