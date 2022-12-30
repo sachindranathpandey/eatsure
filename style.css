@@ -227,7 +227,7 @@ a:link {
 }
 .wrapper {
   display: flex;
-  max-width: 1300px;
+  max-width: 1155px;
   position: absolute;
   left: 40px;
   top: 100px;
@@ -306,5 +306,18 @@ a:link {
     width: 100%;
   }
 }
+
+/* Hover effect */
+
+/* .slider-images {
+  -webkit-transform: scale(1);
+  transform: scale(1.0001);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+} */
 
 /* Top carousel ends here */
