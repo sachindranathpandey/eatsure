@@ -309,15 +309,15 @@ a:link {
 
 /* Hover effect */
 
-/* .slider-images {
+.slider-images {
   -webkit-transform: scale(1);
-  transform: scale(1.0001);
+  transform: scale(1.01);
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.1s ease-in-out;
 }
 img:hover {
   -webkit-transform: scale(1);
   transform: scale(1);
-} */
+}
 
 /* Top carousel ends here */
