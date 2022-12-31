@@ -327,7 +327,7 @@ img:hover {
 .choose-from-container {
   display: flex;
   flex-direction: column;
-  margin-top: 260px;
+  margin-top: 250px;
   gap: 20px;
 }
 .choose-text-div {
@@ -393,6 +393,8 @@ img:hover {
   display: flex;
   flex-direction: row;
   gap: 35px;
+  padding-left: 20px;
+  /* justify-content: space-between; */
   width: 1200px;
 
   /* overflow: hidden; */
@@ -405,7 +407,6 @@ img:hover {
 /* Choose From Trusted Restaurants in One Single Order   ENDS HERE */
 .small-icon-container {
   color: white;
-  /* background-color: aqua; */
   text-align: center;
   width: 1180px;
   text-decoration: none;
@@ -413,10 +414,7 @@ img:hover {
   white-space: nowrap;
   color: black;
   font-weight: 500;
-
   align-items: center;
-
-  padding-top: 30px;
 }
 
 /* Hide Scroll Bar */
