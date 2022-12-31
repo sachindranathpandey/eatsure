@@ -394,8 +394,11 @@ img:hover {
   flex-direction: row;
   gap: 35px;
   padding-left: 20px;
+
   /* justify-content: space-between; */
   width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 
   /* overflow: hidden; */
 }
