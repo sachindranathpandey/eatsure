@@ -3,12 +3,17 @@
     "btnclose",
     "btndark",
     "btnhamburger",
+    "btnlocation",
     "darkmode",
     "hidemodal",
     "offcanvas",
+    "showtemp",
     "signin",
     "Squar",
+    "tempdiv",
+    "temprature",
     "txtsignin",
     "Vipul"
-  ]
+  ],
+  "git.ignoreLimitWarning": true
 }

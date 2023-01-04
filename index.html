@@ -42,7 +42,8 @@
               alt="lo"
               class="logo"
             />
-            <a href="">
+           
+            <!-- <a href=""> -->
               <div class="set-location">
                 <div class="location-delivering-text">
                   <div>
@@ -55,16 +56,25 @@
                   <div><span class="delivering">Delivering at...</span></div>
                 </div>
                 <div class="span-dropdown-location">
-                  <span class="selected-place-span">Vipul Squar Sec 43</span>
-                  <img src="./image/dropdown.svg" />
+                  <!-- <span class="selected-place-span">Select Location</span> -->
+                  <button class="selected-place-span" onclick="geolocation()">Select Location</button>
+                  <img src="./image/dropdown.svg" class="cloudyimg"/>
+                  
                 </div>
+               
               </div>
-            </a>
+            <!-- </a> -->
+           <div class="temprature-div hide-temp-div">
+            <img src="./image/whetherimg/cloudy-day-3.svg" alt="">
+            <span class="show-temp-span"></span>
+           
+           </div>
           </div>
         </div>
 
         <div class="right-nav-container">
           <div id="darkdiv">
+          
             <button class="btndark" onclick="darkmode()">
               <img src="./image/sun.svg" alt="sun" class="btnsvg" />
             </button>
@@ -196,7 +206,7 @@
         <i id="left" class="fa-solid fa-angle-left"></i>
         <div class="carousel">
           <img
-            src="image/carousel-1.png"
+            src="image/carousel-6.png"
             alt="img"
             draggable="false"
             class="slider-images"
@@ -226,6 +236,12 @@
             draggable="false"
             class="slider-images"
           />
+          <img
+          src="image/carousel-1.png"
+          alt="img"
+          draggable="false"
+          class="slider-images"
+        />
         </div>
         <i id="right" class="fa-solid fa-angle-right"></i>
       </div>
@@ -399,6 +415,10 @@
   </div>
 </section>
 
+<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
     <!-- Choose From Trusted Restaurants in One Single Order   ENDS HERE -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -408,5 +428,6 @@
 
     <script src="./script.js"></script>
     <script src="./carousalscript.js" defer></script>
+    <script src="./location.js"></script>
   </body>
 </html>
